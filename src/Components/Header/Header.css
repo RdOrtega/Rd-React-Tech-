@@ -1,0 +1,26 @@
+.Header {
+    color: #f7f7f7;
+    background-color: #0c0c0cec;
+}
+
+.tittle-header {
+    font-family: serif;
+    font-size: 38px;
+}
+
+.icon-cart {
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    color: #f7f7f7;
+}
+
+.link-header{
+    display: block;
+    font-size: 20px;
+    color: #f7f7f7;
+}
+
+.link-header:hover{
+    color: #ff3300;
+}

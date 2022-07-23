@@ -1,0 +1,46 @@
+.detail-card {
+    border-radius: 4px;
+    border: 2px solid #ff3300;
+}
+
+.img-detail {
+    width: auto;
+    border-radius: 4px;
+}
+
+.conteiner-icon-cart {
+    margin-left: 50px;
+}
+
+.title-detail-card {
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 4px;
+    background-color: #0c0c0cec;
+}
+
+
+@media (min-width: 1024px) {
+
+    .detail-card {
+        max-width: 900px;
+        border-radius: 4px;
+        border: 2px solid #ff3300;
+    }
+
+    .img-detail {
+        max-width: 500px;
+        max-height: 380px;
+        border-radius: 4px;
+    }
+
+    .title-detail-card {
+        width: 45%;
+        text-align: center;
+        color: whitesmoke;
+        border-radius: 4px;
+        background-color: #0c0c0cec;
+    }
+
+}

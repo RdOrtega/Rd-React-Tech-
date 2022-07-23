@@ -1,0 +1,23 @@
+  .num-cart {
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    right: 20px;
+    width: 23px;
+    color: whitesmoke;
+    border-radius: 100%;
+    background-color: #ff3300;
+  }
+
+  .conteiner-icon {
+    width: auto;
+    color: aliceblue;
+  }
+
+  .bi-bag-heart {
+    font-size: 30px;
+  }
+
+  .conteiner-icon:hover {
+    color: green;
+  }

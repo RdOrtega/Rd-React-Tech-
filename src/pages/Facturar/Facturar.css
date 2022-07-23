@@ -1,0 +1,35 @@
+.body-facturar{
+    color: #f7f7f7;
+    background-color: #F5F5F7;
+}
+
+.body-form{
+    height: auto;
+    border-radius: 8px;
+    color: #f7f7f7;
+    background-color: #000000e0;
+    border: 2px solid #ff3300;
+}
+
+.btnTop {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #333;
+    font-family: "Poppins";
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 0px 20px 2px 20px;
+}
+
+.btnTop:hover {
+    color: #f7f7f7;
+    border: 2px solid #ff3300;
+    background-color: #ff3300;
+}
+
+.title-form{
+    color: #f7f7f7;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}

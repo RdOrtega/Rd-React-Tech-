@@ -1,0 +1,139 @@
+.detail {
+    background-color: #F5F5F7;
+}
+
+.text-home {
+    width: auto;
+    margin-left: 4%;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.img-home2 {
+    border-radius: 4px;
+    height: 150px;
+}
+
+.conteiner-col-home {
+    justify-content: space-around;
+}
+
+.col-home {
+    height: auto;
+    border-radius: 4%;
+    margin: 4px 0px;
+    background-color: white;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+
+.col-home-2 {
+    height: auto;
+    border-radius: 4%;
+    height: 405px;
+    margin: 4px 0px;
+    background-color: white;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+
+.row-home {
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+
+.conteiner-col-home-2 {
+    height: auto;
+    justify-content: space-around;
+    background-color: #0c0c0cec;
+}
+
+.naranja {
+    color: #ff3300;
+}
+
+
+@media (min-width: 765px) {
+
+    .col-home {
+        border-radius: 4%;
+        height: auto;
+        background-color: white;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    }
+
+    .col-home-2 {
+        border-radius: 4%;
+        height: auto;
+        background-color: white;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    }
+
+    .row-home {
+        width: auto;
+        height: auto;
+        border-radius: 2%;
+        background-color: white;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    }
+
+    .conteiner-col-home-2 {
+        height: auto;
+        justify-content: space-around;
+        background-color: #0c0c0cec;
+    }
+
+    .img-home2 {
+        border-radius: 4px;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .icon-home {
+        transition: all 400ms ease;
+    }
+
+    .icon-home:hover {
+        transform: scale(1.1);
+    }
+
+
+    .col-home {
+        border-radius: 4%;
+        height: auto;
+        margin-bottom: 4px;
+        background-color: white;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    }
+
+    .col-home-2 {
+        border-radius: 4%;
+        height: auto;
+        margin-bottom: 4px;
+        background-color: white;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    }
+
+    .row-home {
+        width: auto;
+        height: auto;
+        border-radius: 2%;
+        background-color: white;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    }
+
+    .conteiner-col-home-2 {
+        margin-bottom: 5px;
+        height: auto;
+        justify-content: space-around;
+        background-color: #0c0c0cec;
+    }
+
+    .img-home2 {
+        border-radius: 4px;
+        height: auto;
+    }
+}

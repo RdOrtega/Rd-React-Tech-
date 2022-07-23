@@ -1,0 +1,9 @@
+.conteiner-details {
+    width: 45%;
+    background-color: #F5F5F7;
+    border-radius: 4px;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    border: 2px solid #0A3016;
+}

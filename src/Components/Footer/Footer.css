@@ -1,0 +1,20 @@
+.footer {
+    height: auto;
+    margin:  0%;
+    padding: 0%;
+    color: #F7F7F7;
+    background-color: #333;
+}
+
+.bi-instagram .bi-meta{
+    font-size: 20px;
+}
+
+.link-redes{
+    color: #F7F7F7;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link-redes:hover{
+    color: orangered;
+}
