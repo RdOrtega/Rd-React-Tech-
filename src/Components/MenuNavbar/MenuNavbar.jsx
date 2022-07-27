@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 import "./MenuNavbar.css";
 
 
-//import de los logos de mi page......
-import logo2 from '../../Img/Logos/logo-marca.png';
-import logo1 from '../../Img/Logos/logo-Rd.png';
-
-
 
 const MenuNavbar = () => {
 
@@ -15,7 +10,7 @@ const MenuNavbar = () => {
 
         <div className='MenuNavbar text-center'>
 
-            <img src={logo1} className='logo1' alt="logo" />
+            <img src={'Assets/Img/Logos/logo-Rd.png'} className='logo1' alt="logo" />
 
             <section className='links-MenuNavbar'>
                 <Link to='/marca/LENOVO' className='links'>Lenovo</Link>
@@ -24,7 +19,7 @@ const MenuNavbar = () => {
                 <Link to='/marca/SAMSUNG' className='links'>Samsung</Link>
                 <Link to='/marca/APPLE' className='links'>Apple</Link>
             </section>
-            <img src={logo2} className="logo2" alt="logo" />
+            <img src={'Assets/Img/Logos/logo-marca.png'} className="logo2" alt="logo" />
         </div>
     );
 };
